@@ -1,0 +1,22 @@
+<resources>
+  <string name="app_name">Stock Hawk</string>
+
+  <string name="action_example">Example action</string>
+
+  <string name="action_settings">Settings</string>
+  <string name="action_change_units">Change Units</string>
+  <string name="symbol_search">Symbol Search</string>
+  <string name="content_test">Search for a Stock Symbol</string>
+  <string name="input_hint">FB</string>
+  <string name="input_prefill"></string>
+  <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+  <string name="last_updated">Last Updated</string>
+  <string name="no_data">No Data Available</string>
+  <string name="stale_data_available">Please try refreshing by pulling page to get current Information or adding a Stock option with the button below</string>
+  <string name="stock_already_present">This stock is already saved!</string>
+  <string name="refresh_rates">Refresh Rates</string>
+  <string name="year_low_txt">"Years Low: "</string>
+  <string name="year_high_txt">"Years High: "</string>
+  <string name="last_trade_date_txt">"Last Trade Date: "</string>
+  <string name="asking_price_txt">"Asking Price: "</string>
+</resources>
