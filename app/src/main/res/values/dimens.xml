@@ -3,6 +3,17 @@
   <dimen name="activity_horizontal_margin">16dp</dimen>
   <dimen name="activity_vertical_margin">16dp</dimen>
 
+  <dimen name="line_chart_padding">16dp</dimen>
+  <dimen name="layout_padding">16dp</dimen>
+  <dimen name="widget_layout_item_padding">16dp</dimen>
+  <dimen name="widget_layout_item_top_padding">10dp</dimen>
+  <dimen name="widget_layout_item_bottom_margin">20dp</dimen>
+  <dimen name="widget_change_text_padding">10dp</dimen>
+  <dimen name="widget_bid_price_text_padding">10dp</dimen>
+  <dimen name="main_bid_price_text_padding">10dp</dimen>
+  <dimen name="main_change_text_padding">10dp</dimen>
+  <dimen name="line_item_height">72dp</dimen>
+  <dimen name="details_asking_price_start_margin">10dp</dimen>
   <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
          https://developer.android.com/design/patterns/navigation-drawer.html -->
   <dimen name="navigation_drawer_width">240dp</dimen>

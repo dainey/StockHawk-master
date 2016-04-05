@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFF">
+    android:background="@color/widget_main_bg">
 
     <LinearLayout
         android:id="@+id/banner"
@@ -32,7 +32,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="@string/no_data"
-        android:textColor="#ffffff"
+        android:textColor="@color/empty_list_txt_color"
         android:textSize="20sp"
         android:visibility="gone" />
 </LinearLayout>

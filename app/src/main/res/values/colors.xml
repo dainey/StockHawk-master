@@ -9,4 +9,6 @@
   <color name="stock_chart_dot">#009999</color>
   <color name="chart_data_color">#999966</color>
   <color name="stock_details_bg">#999999</color>
+  <color name="widget_main_bg">#FFFFFF</color>
+  <color name="empty_list_txt_color">#000000</color>
 </resources>

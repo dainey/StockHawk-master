@@ -8,7 +8,7 @@
   <string name="symbol_search">Symbol Search</string>
   <string name="content_test">Search for a Stock Symbol</string>
   <string name="input_hint">FB</string>
-  <string name="input_prefill"></string>
+  <string name="input_prefill"> </string>
   <string name="network_toast">Uh-oh! This app requires an internet connection</string>
   <string name="last_updated">Last Updated</string>
   <string name="no_data">No Data Available</string>
@@ -19,4 +19,8 @@
   <string name="year_high_txt">"Years High: "</string>
   <string name="last_trade_date_txt">"Last Trade Date: "</string>
   <string name="asking_price_txt">"Asking Price: "</string>
+  <string name="stock_action_view">stock</string>
+  <string name="linegraph_contentDescrption">Graph showing stock trends for the selected company</string>
+  <string name="stock_recycleview_contentDescription">Listing of available stock. Click a Stock for more details</string>
+  <string name="main_fab_contentDescription">Click to add New stock option</string>
 </resources>

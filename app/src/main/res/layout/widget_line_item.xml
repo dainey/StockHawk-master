@@ -6,10 +6,12 @@
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="10dp"
-    android:layout_marginBottom="20dp">
+    android:paddingLeft="@dimen/widget_layout_item_padding"
+    android:paddingRight="@dimen/widget_layout_item_padding"
+    android:paddingEnd="@dimen/widget_layout_item_padding"
+    android:paddingStart="@dimen/widget_layout_item_padding"
+    android:paddingTop="@dimen/widget_layout_item_top_padding"
+    android:layout_marginBottom="@dimen/widget_layout_item_bottom_margin">
 
 
 <LinearLayout
@@ -50,9 +52,10 @@
           style="@style/WidgetGeneralTextStyle"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:paddingEnd="10sp"
-          android:paddingRight="10sp"
-          android:paddingStart="10sp"
+          android:paddingEnd="@dimen/widget_bid_price_text_padding"
+          android:paddingLeft="@dimen/widget_bid_price_text_padding"
+          android:paddingRight="@dimen/widget_bid_price_text_padding"
+          android:paddingStart="@dimen/widget_bid_price_text_padding"
           android:maxLength="18"
           tools:text="1000.00" />
 
@@ -62,8 +65,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/percent_change_pill"
-            android:paddingLeft="3dp"
-            android:paddingRight="3dp"
+            android:paddingLeft="@dimen/widget_change_text_padding"
+            android:paddingRight="@dimen/widget_change_text_padding"
             android:maxLength="18"
             tools:text="100%" />
 

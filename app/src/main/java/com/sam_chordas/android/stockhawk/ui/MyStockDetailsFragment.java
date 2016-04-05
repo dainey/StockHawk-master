@@ -164,7 +164,7 @@ public class MyStockDetailsFragment extends Fragment implements LoaderManager.Lo
         lineChart.setBorderSpacing(Tools.fromDpToPx(1))
                 .setTypeface(robotoBold)
                 .setYLabels(AxisController.LabelPosition.OUTSIDE)
-                .setXLabels(AxisController.LabelPosition.OUTSIDE)
+                .setXLabels(AxisController.LabelPosition.NONE)
                 .setLabelsColor(ContextCompat.getColor(getContext(), R.color.material_blue_700))
                 .setAxisColor(ContextCompat.getColor(getContext(), R.color.material_blue_500))
                 .setXAxis(true)
